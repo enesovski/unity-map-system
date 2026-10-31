@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_MapFogOverlay
+  m_Shader: {fileID: 4800000, guid: a5a94683a7c49964db91736e95c8e847, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FogAreaMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FogMask:
+        m_Texture: {fileID: 2800000, guid: 4243b68595f3f5041877ae6fa0002adf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 83757a88c3a40f44f8509280e0a4ba5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransitionTex:
+        m_Texture: {fileID: 2800000, guid: bee69e9222e12344bb5a210ca5e5b2c2, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudScale: 4
+    - _CloudStrength: 1
+    - _ColorMask: 15
+    - _EdgeDistortion: 0.35
+    - _EdgeGlowStrength: 5
+    - _EdgeGlowWidth: 0.5
+    - _EdgeMidpoint: 0.5
+    - _EdgeNoiseScale: 4.93
+    - _EdgeNoiseSpeed: 0.18
+    - _EdgeNoiseStrength: 0
+    - _EdgeSoftness: 1
+    - _EdgeWidth: 0.447
+    - _FogAreaMaskSoftness: 0.08
+    - _FogAreaMaskStrength: 1
+    - _FogAreaMaskThreshold: 0.5
+    - _FogDriftSpeed: 0.04
+    - _FogMaskScale: 6
+    - _FogOpacity: 1
+    - _NoiseScale: 3.5
+    - _NoiseSpeedX: 0.02
+    - _NoiseSpeedY: 0.01
+    - _NoiseStrength: 0.718
+    - _RevealThreshold: 0.861
+    - _RevealedOpacity: 0
+    - _RimStrength: 0.86
+    - _RimWidth: 0.472
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TransitionOpacity: 0.847
+    - _TransitionScale: 2
+    - _TransitionWidth: 0.8
+    - _WarpDetailScale: 5.84
+    - _WarpDetailStrength: 0.0097
+    - _WarpScale: 13.02
+    - _WarpStrength: 0.01
+    m_Colors:
+    - _EdgeColor: {r: 0.24999997, g: 0.45, b: 0.65, a: 1}
+    - _EdgeGlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FogColor: {r: 0.054788135, g: 0.21858275, b: 0.3056603, a: 1}
+    - _FogColorDeep: {r: 0.049999982, g: 0.089999996, b: 0.16999996, a: 1}
+    - _FogDriftDirection: {r: 1, g: 0.3, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TransitionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

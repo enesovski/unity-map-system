@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c342149cf427487592637e7847d79a1a, type: 3}
+  m_Name: MapIconConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Artifika.Map.UI.MapIconConfig
+  fallbackIcon: {fileID: 21300000, guid: ed3c14b5faed6ce4a9070bb7892a3c77, type: 3}
+  fallbackIconSize: 18
+  markerTypeIcons:
+  - Type: 20
+    Icon: {fileID: 21300000, guid: 35cebff3474af5a469b7099d4d4d29e5, type: 3}
+    Size: 24
+  - Type: 22
+    Icon: {fileID: 21300000, guid: 85bc6bc3770016d4b948aafb7a6b5943, type: 3}
+    Size: 18
+  - Type: 21
+    Icon: {fileID: 21300000, guid: 488c6f5fa68545646bb0cab41356a7fa, type: 3}
+    Size: 24
+  - Type: 40
+    Icon: {fileID: 21300000, guid: 11b7b11f7cf12bc4790c0a401a2fdd88, type: 3}
+    Size: 24
+  playerSlotIcons:
+  - Icon: {fileID: 21300000, guid: 25cabafbc43b69d439005eaf9e2b0987, type: 3}
+    Size: 20
+  - Icon: {fileID: 21300000, guid: a589921043f629c42b8c4cc9e631205e, type: 3}
+    Size: 20
+  - Icon: {fileID: 21300000, guid: 97eadb95759d6744f9b809f61fbcada3, type: 3}
+    Size: 20
+  - Icon: {fileID: 21300000, guid: 9c984702290dfb940b3f33220b8f86bc, type: 3}
+    Size: 20
+  poiCategoryIcons:
+  - Category: 0
+    Icon: {fileID: 21300000, guid: e39ef233a96679542a7fa5c2d2fd637b, type: 3}
+    Size: 24
+  - Category: 1
+    Icon: {fileID: 21300000, guid: a68f207b16e2b094090a128967406934, type: 3}
+    Size: 24
+  - Category: 2
+    Icon: {fileID: 21300000, guid: 4a519c320ed656d44abc5c2fc2c43783, type: 3}
+    Size: 24
+  - Category: 3
+    Icon: {fileID: 21300000, guid: 47f5047be35f69147b6a89b18d8be164, type: 3}
+    Size: 24
+  - Category: 4
+    Icon: {fileID: 21300000, guid: 79426751f70ab5b4e9eca756e6fb4600, type: 3}
+    Size: 24
+  - Category: 6
+    Icon: {fileID: 21300000, guid: 91e278ef9c6d9ef41816f94823202411, type: 3}
+    Size: 24
+  - Category: 8
+    Icon: {fileID: 21300000, guid: 8236845297646344785821e059279367, type: 3}
+    Size: 36
+  entityMarkerIcons: []

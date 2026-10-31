@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7f02c90a3292b48b96d5f988018eb8, type: 3}
+  m_Name: MapProjection
+  m_EditorClassIdentifier: Assembly-CSharp::Artifika.Map.Core.MapProjection
+  grid: {fileID: 11400000, guid: 43acb448695654d4296deabb406dd829, type: 2}
+  originTile: {x: -6, y: -6}
+  tileCount: {x: 13, y: 13}
+  pixelsPerTile: 360
+  yaw: 0
+  flipX: 0
+  flipZ: 0
+  legacyBounds: 0
+  legacyWorldBounds:
+    serializedVersion: 2
+    x: -859
+    y: -2449.32
+    width: 3072
+    height: 3072
+  legacyMapPixelSize: {x: 1080, y: 1080}

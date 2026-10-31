@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6116fc8e448541d4906bdec75fe07255, type: 3}
+  m_Name: POI_Hypertube_VIR_TEN
+  m_EditorClassIdentifier: Assembly-CSharp::Artifika.Map.Core.MapPOIDefinition
+  PoiId: hypertube_vir_ten
+  DisplayName: Hypertube
+  Description: Rapid transit line. Faint energy still pulses through its core.
+  Category: 8
+  IslandId: adenia
+  RevealOnDiscovery: 1
+  DefaultState: 0

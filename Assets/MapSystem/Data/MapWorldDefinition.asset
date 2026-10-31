@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0876d951cef7ee042977294009b21d11, type: 3}
+  m_Name: MapWorldDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::Artifika.Map.Core.MapWorldDefinition
+  WorldBoundsRect:
+    serializedVersion: 2
+    x: -859
+    y: -2449.32
+    width: 3072
+    height: 3072
+  Islands:
+  - {fileID: 11400000, guid: 96c72112fd9c8ae478a08c68b341f80f, type: 2}
+  - {fileID: 11400000, guid: e430cb1524578db4da39508cad6c3488, type: 2}
+  - {fileID: 11400000, guid: e52eb644551ebc045919e8a80379a360, type: 2}
